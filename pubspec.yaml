@@ -1,6 +1,6 @@
 name: js_unpack
-description: Unpacks P.A.C.K.E.R. packed js code.
-version: 1.0.1
+description: Unpacks P.A.C.K.E.R. packed js code. / generate javascript code from packed js code.
+version: 1.0.2
 repository: https://github.com/linkkader/js_unpack
 
 # homepage: https://www.example.com

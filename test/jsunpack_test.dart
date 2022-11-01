@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:js_unpack/js_unpack.dart';
 import 'package:test/test.dart';
 
-void main() async{
+void main() async {
   Map<int, int> lst = {
-    1332 : 76286743878478483,
-    123 : 87850983088093,
-    88 :98437874575973,
+    1332: 76286743878478483,
+    123: 87850983088093,
+    88: 98437874575973,
   };
 
   var un = UnBaser(16);
@@ -25,9 +25,8 @@ void main() async{
   return;
   var js = JsUnpack(html);
 
-
   return;
-  String _hexlify(String str){
+  String _hexlify(String str) {
     var s = "";
     var un = UnBaser(16);
     for (var value in str.codeUnits) {
@@ -35,13 +34,12 @@ void main() async{
     }
     return s;
   }
+
   //var un = UnBaser(16);
   print(_hexlify("AAB1"));
 
-  for(var i in lst.entries){
-
-    test(i.key.toString(), () async{
-
+  for (var i in lst.entries) {
+    test(i.key.toString(), () async {
       // var un = UnBaser(10);
       // await Future.delayed(Duration(seconds: 2));
       // expect(true, true);
